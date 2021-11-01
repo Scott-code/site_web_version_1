@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#groupe-logo h1 img {
+  width: 55px;
+  margin-left: 5px;
+  height: 45px;
+}
+#groupe-logo {
+  display: flex;
+
+  position: relative;
+}
+.hitech {
+  position: absolute;
+  left: 75px;
+  width: 140px;
+  top: 29px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 45px;
+  margin-top: 20px;
+}
+#groupe-logo h1 {
+  font-size: 19px;
+}
+a {
+  text-decoration: none;
+}
+.sous {
+  display: flex;
+  flex-flow: column wrap;
+}
+nav > ul > li > a {
+  color: rgb(99, 88, 88);
+  font-size: 25px;
+}
+.sous {
+  position: absolute;
+}
+nav > ul > li > a:hover {
+  border-bottom: 2px solid black;
+
+  position: sticky;
+}
+header {
+  background: url(../images/neige\ font.jpg);
+  background-size: 122px 49px;
+}
+.sous {
+  display: none;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+}
+
+nav > ul > li:hover .sous {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+}
+.sous li a {
+  font-size: 13px;
+  color: #222538;
+  width: 270px;
+  padding-left: 42px;
+  display: block;
+  padding-bottom: 9px;
+}
+
+header {
+  margin: 1 1 auto;
+}
+
+.sous li {
+  border-bottom: 1px solid #ccc;
+}
+
+.sous li a:hover {
+  color: rgba(68, 64, 55, 0.432);
+  display: block;
+}
+nav ul li img {
+  width: 29px;
+  position: absolute;
+}
+/*ACCUEIL VIDEO*/
+body {
+  overflow-x: hidden;
+}
+#video-accueil {
+  height: 1085px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background-color: blue;
+
+  margin: 1px;
+}
+#video-accueil video {
+}
+#overlay {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  margin-top: 400px;
+  z-index: 2;
+  color: white;
+}
+#overlay h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+#overlay p {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+#overlay #bouton {
+  background-color: white;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  color: black;
+}
+#overlay #bouton:hover {
+  color: #707599;
+  background-color: blanchedalmond;
+}
+.paragraphe {
+}
+section {
+  margin-top: 15px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+  <link rel="stylesheet" href="Document_fichiers/index.css"></head>
+  <body>
+    <div id="logo-barre">
+      <header>
+        <div id="groupe-logo">
+          <div class="lo">
+            <h1 class="logo">
+              <a href="#"><img src="Document_fichiers/ei_1632063827217-removebg-preview.png" alt="">
+              </a>
+            </h1>
+          </div>
+          <div class="hitech">hi-tech-school</div>
+        </div>
+
+        <div id="barre-nav">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">accueil<img src="Document_fichiers/maison%25201.png" alt=""></a>
+                <ul class="sous">
+                  <li><a href="#">html</a></li>
+                  <li><a href="#"> javascript</a></li>
+                  <li><a href="#">php</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">mes cours</a>
+                <ul class="sous">
+                  <li><a href="#">html</a></li>
+                  <li><a href="#"> javascript</a></li>
+                  <li><a href="#">php</a></li>
+                </ul>
+              </li>
+              <li><a href="#">mes formations</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <div id="video-accueil">
+      <video src="Document_fichiers/pexels-anthony-shkraba-production-8688046.mp4" autoplay="autoplay" muted="muted" loop=""></video>
+
+      <div id="overlay">
+        <h1>Bienvenue chez hi-tech-school</h1>
+        <p>
+          hitech , c'est votre site d'apprentissage de l'informatique par
+          excellence <br>alor alors faites nous confience et nous vous
+          donnerons du meilleur contenus
+        </p>
+        <a href="#" id="bouton">DECOUVRIR</a>
+      </div>
+    </div>
+    <section>
+      <div class="paragraphe">
+        <p class="para">
+          DSFDGDGDGDGDGDGDGDSGDGDGDGDGDGDGDGDHDFHDFHDFHDFHDF
+          DHDHDHDDDSFSFSGDGDGDDGDGDGDDHDHDHDHDHDHDHDFHFHDFHDH
+          DFHDFHDFHDHDFHDFHDHDFHFHFJDGJDGJDFJGDJGDJGFJDJDTJGDJ
+          GDJDGTJDGTJDGJTDJRSHDFSJFY?GKGDJGFHJGFJGFJGDFJGFJGJGFXJG
+          JGFFDJDFJDJFNHGFCNJTFYJFDNFXJFTJFHFDJTDYJNJFDJDFNXJD
+          FFJFDJFHJFSHDRTJYDIUIJFGHJGCJFXGNFDXNHCFJ?FXGNFXNJFCFXN
+          XFNFXFXJHFXBWDBHDFGKHUKGFJDSJFDYKGFXJWDHNSFKDGJ?XFNWJ
+          WFJNFWDFXHSDHFRXHXFHFXNWDGVSERHDGJDTHEWDHSFTDKDJXRJXFJXDFHJFX
+          JFWDHDXHWDDXHBDXBDXBXDBXDBWDBXDFBDXBNCXBXBCXNCXBHDXCHCGBCHG
+          BCBHDXFCBXDGBWDFHGYFIYULOJDSGHFHGHFGJFJJFJFJJFJFJFJFJFFJF
+        </p>
+      </div>
+    </section>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
